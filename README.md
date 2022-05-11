@@ -2,6 +2,8 @@
 - 👀 I’m interested in Anime, Manga, Pixelart, Videogames, Embedded Systems, and Electronics!
 - 🌱 I’m currently learning Rust and soon MicroPython.
 
+[Markdown](https://github.com/NinjaSpottedCoding/Main-Page/tree/main/markdown)
+
 ## Programs
 
 Dillinger is currently extended with the following plugins.
@@ -14,6 +16,7 @@ Instructions on how to use them in your own application are linked below.
 | Blender | [plugins/googledrive/README.md][PlGd] |
 | Heroic | [plugins/onedrive/README.md][PlOd] |
 | WSL | [plugins/medium/README.md][PlMe] |
+| OBS Studio | [plugins/googleanalytics/README.md][PlGa] |
 | OBS Studio | [plugins/googleanalytics/README.md][PlGa] |
 
 <!---
