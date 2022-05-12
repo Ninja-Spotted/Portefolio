@@ -2,7 +2,7 @@
 - 👀 I’m interested in Anime, Manga, Pixelart, Videogames, Embedded Systems, and Electronics!
 - 🌱 I’m currently learning Rust and soon MicroPython.
 
-[Markdown](https://github.com/NinjaSpottedCoding/Main-Page/tree/main/markdown)
+[Markdown](/Main-Page/tree/main/markdown)
 
 ## Programs
 
