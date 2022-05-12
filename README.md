@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Rust and soon MicroPython.
 
 [Markdown](/markdown)  
-[How I did to add multiple pages to my website](https://docs.github.com/pt/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-page-to-your-site)
+[Trying to add more pages to the site](https://docs.github.com/pt/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-page-to-your-site)
 ## Programs
 
 Dillinger is currently extended with the following plugins.
