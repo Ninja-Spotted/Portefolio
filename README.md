@@ -9,6 +9,18 @@
 Dillinger is currently extended with the following plugins.
 Instructions on how to use them in your own application are linked below.
 
+- [Game Development](#game-development)
+- [Programming Languages](#programming-languages)
+- [Programs](#programs)
+- [Back-End Development](#back-end-development)
+
+## game-development
+I am currently interested in low spec game engines like [pico-8](https://www.lexaloffle.com/dl/docs/pico-8_manual.html), [pyxel](https://github.com/kitao/pyxel), and [raylib](https://github.com/raysan5/raylib).
+
+## programming-languages
+I mainly learned [C](https://www.learn-c.org/) and [Python](https://www.python.org/), and recently started with [Rust](https://www.rust-lang.org/).
+
+## programs
 | Program | Platforms |
 | ------ | ------ |
 | Steam | [plugins/dropbox/README.md][PlDb] |
@@ -18,14 +30,3 @@ Instructions on how to use them in your own application are linked below.
 | WSL | [plugins/medium/README.md][PlMe] |
 | OBS Studio | [plugins/googleanalytics/README.md][PlGa] |
 | OBS Studio | [plugins/googleanalytics/README.md][PlGa] |
-
-- [Game Development](#game-development)
-- [Programming Languages](#programming-languages)
-- [Front-End Development](#front-end-development)
-- [Back-End Development](#back-end-development)
-
-## game-development
-I am currently interested in low spec game engines like [pico-8](https://www.lexaloffle.com/dl/docs/pico-8_manual.html), [pyxel](https://github.com/kitao/pyxel), and [raylib](https://github.com/raysan5/raylib).
-
-## programming-languages
-I mainly learned [C](https://www.learn-c.org/) and [Python](https://www.python.org/), and recently started with [Rust](https://www.rust-lang.org/).
