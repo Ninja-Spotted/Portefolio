@@ -19,12 +19,6 @@ Instructions on how to use them in your own application are linked below.
 | OBS Studio | [plugins/googleanalytics/README.md][PlGa] |
 | OBS Studio | [plugins/googleanalytics/README.md][PlGa] |
 
-<!---
-NinjaSpottedCoding/NinjaSpottedCoding is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-
 - [Game Development](#game-development)
 - [Programming Languages](#programming-languages)
 - [Front-End Development](#front-end-development)
@@ -32,3 +26,6 @@ You can click the Preview link to take a look at your changes.
 
 ## game-development
 I am currently interested in low spec game engines like [pico-8](https://www.lexaloffle.com/dl/docs/pico-8_manual.html), [pyxel](https://github.com/kitao/pyxel), and [raylib](https://github.com/raysan5/raylib).
+
+## programming-languages
+I mainly learned [C](https://www.learn-c.org/) and [Python](https://www.python.org/), and recently started with [Rust](https://www.rust-lang.org/).
