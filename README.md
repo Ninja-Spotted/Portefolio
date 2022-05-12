@@ -2,7 +2,7 @@
 - 👀 I’m interested in Anime, Manga, Pixelart, Videogames, Embedded Systems, and Electronics!
 - 🌱 I’m currently learning Rust and soon MicroPython.
 
-[Markdown](/Main-Page/tree/main/markdown)  
+[Markdown](/markdown)  
 [How I did to add multiple pages to my website](https://docs.github.com/pt/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-page-to-your-site)
 ## Programs
 
