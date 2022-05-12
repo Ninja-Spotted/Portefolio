@@ -16,7 +16,6 @@ This is my personal "guide" that I made while exploring the syntaxe, and if you 
 | [Reference Link](#reference-link)     |     \[Text][reference]   \[reference]:link                    |   this seems useful for lots of the same link            
 | [Inline Image Link](#inline-image)    |     \!\[Alt Text](link)                                       |   to display an image which is in the repository, use relative links instead of absolute links.   
 | [Reference Image](#reference-image):  |     \[Alt Text][reference]                                    |    \[reference]:link  ([same as without image](#reference-link))        
-|                                       |     \[reference]:link                                         |                 
 | [Quote Block](#quote-block)           |     \> Text                                                   |   usefull to highlight a snippet of text from the rest              
 | [Unordered List](#unordered-list)     |     \* Item                                                   |                 
 | [Ordered List](#ordered-list)         |     1. Item                                                   |                 
