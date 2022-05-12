@@ -64,3 +64,4 @@ That's pretty awesome!
 [website]:https://ninjaspottedcoding.github.io/Main-Page/
 
 Thank you for finding this page, and remember to check out the resources used on this document, or others more directed to help learn how to use Markdown!
+This page was written / last updated in 12/05/2022.
