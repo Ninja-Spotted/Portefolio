@@ -1,8 +1,3 @@
-layout: page
-title: "markdown"
-permalink:Main-Page/markdown/readme.md
-
-
 #### hello there!
 
 This page will be used as a documentation on markdown (lightweight markup language).
