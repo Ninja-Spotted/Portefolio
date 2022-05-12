@@ -9,21 +9,21 @@ This is my personal "guide" that I made while exploring the syntaxe, and if you 
 | ------                                |       :------:            |      ------     |
 | [Italic](#italic)                     |      \_Text\_             |                 |
 | [Bold](#bold)                         |     \*\*Text\*\*          |                 |
-| [Headers](#headers)                   |     \# Header 1           |                 |
-|                                       |     \## Header 2          |                 |
-|                                       |     \###### Header 6      |                 |
+| [Headers](#headers)                   |     \# Header 1           |   not recommended to use big headers             |
+|                                       |     \## Header 2          |   better to just use \#\# like a content table              |
+|                                       |     \###### Header 6      |   and then \# where you want to point to              |
 | [Inline Link](#inline-link)           |     \[Text](link)         |                 |
-| [Reference Link](#reference-link)     |     \[Text][reference]    |                 |
+| [Reference Link](#reference-link)     |     \[Text][reference]    |   this seems useful for lots of the same link            |
 |                                       |     \[reference]:link     |                 |
 | [Inline Image Link](#inline-image)    |     \!\[Alt Text](link)   |   to display an image which is in the repository, use relative links instead of absolute links.   
 | [Reference Image](#reference-image):  |     \[Alt Text][reference]|                 |
 |                                       |     \[reference]:link     |                 |
-| [Quote Block](#quote-block)           |     \> Text               |                 |
+| [Quote Block](#quote-block)           |     \> Text               |   usefull to highlight a snippet of text from the rest              |
 | [Unordered List](#unordered-list)     |     \* Item               |                 |
 | [Ordered List](#ordered-list)         |     1. Item               |                 |
-| [Line Break](#line-break)             |     2 spaces end of line  |                 |
-| [Code Block](#code-block)             |     2 TABS or 4 spaces    |                 |
-| [Horizontal Bar](#horizontal-bar)     |     \----------           |                 |
+| [Line Break](#line-break)             |     2 spaces end of line  |   it can be good for lists but doesn't work on tables             |
+| [Code Block](#code-block)             |     2 TABS or 4 spaces    |   it's a good idea to indent the code!              |
+| [Horizontal Bar](#horizontal-bar)     |     \----------           |   a thinner is created on "headers" so it's not that useful             |
 
 ## italic  
 _Emphasis, aka italics, with *asterisks* or _underscores_._
