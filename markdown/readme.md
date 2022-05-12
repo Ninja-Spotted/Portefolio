@@ -19,7 +19,7 @@ This is my personal "guide" that I made while exploring the syntaxe, and if you 
 | [Quote Block](#quote-block)           |     \> Text                                                   |   usefull to highlight a snippet of text from the rest              
 | [Unordered List](#unordered-list)     |     \* Item                                                   |                 
 | [Ordered List](#ordered-list)         |     1. Item                                                   |                 
-| [Line Break](#line-break)             |     2 spaces end of line                                      |   it can be good for lists but doesn't work on tables             
+| [Line Break](#line-break)             |     2 spaces end of line                                      |   it can be good for lists but doesn't work well on tables             
 | [Code Block](#code-block)             |     2 TABS or 4 spaces                                        |   it's a good idea to indent the code!              
 | [Horizontal Bar](#horizontal-bar)     |     \----------                                               |   a thinner is created on "headers" so it's not that useful             
 
