@@ -6,3 +6,4 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md", title: "Original page"}
   - {file: "code.md", title: "Code"}
   - {file: "rust.md", title: "Rust"}
+  - {file: "code.html", title: "Posts"}
