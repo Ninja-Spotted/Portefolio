@@ -3,3 +3,4 @@ theme: jekyll-theme-minimal
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "markdown/readme.md"}
+  - {file: "README.md"
