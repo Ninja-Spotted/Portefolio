@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AAAAAAAAAAAAAAAAAAAAAAA!"
-permalink: "/Portefolio/codeURLworkingmaybe/"
+permalink: "/codeURLworkingmaybe/"
 ---
 
 # Welcome
