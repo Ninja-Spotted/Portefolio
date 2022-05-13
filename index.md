@@ -7,5 +7,5 @@ title: "Home"
 
 [About](/README.md)  
 [Markdown](/markdown/readme.md)  
-[random](/missing)  
+[random](missing)  
 [404](/404.md)
