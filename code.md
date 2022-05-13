@@ -8,7 +8,5 @@ layout: default
 This is a test
 
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+        {{ post.url }}">{{ post.title }}</a>
   {% endfor %}
