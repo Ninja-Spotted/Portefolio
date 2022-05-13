@@ -9,4 +9,4 @@ title: "Home"
 [Markdown](/markdown/readme.md)  
 [random](missing)  
 [404](/404.md)  
-[Posts](code.md)
+[Posts](code.html)
