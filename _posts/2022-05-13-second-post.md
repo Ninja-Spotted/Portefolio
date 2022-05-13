@@ -1,6 +1,5 @@
 ---
 layout: post
-permalink: "/codeURLworkingmaybe/"
 title:  "AAAAAAAAAAAAAAAAAAAAAAA!"
 ---
 
