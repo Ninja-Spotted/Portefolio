@@ -4,6 +4,7 @@ permalink: "/about/"
 layout: default
 ---
 
+
 - 👋 Hi, I’m @NinjaSpottedCoding
 - 👀 I’m interested in Anime, Manga, Pixelart, Videogames, Embedded Systems, and Electronics!
 - 🌱 I’m currently learning Rust and soon MicroPython.
