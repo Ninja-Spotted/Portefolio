@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 
 navigation:
-  - {title:"Markdown", file:"markdown.md"}
+  - {title:"Markdown", file:"markdown/readme.md"}
