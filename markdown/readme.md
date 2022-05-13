@@ -1,8 +1,9 @@
 ---
 title: "Markdown"
-permalink: "/markdown/"
-layout: page
+permalink: "/markdown"
+layout: default
 ---
+
 
 
 #### hello there!
