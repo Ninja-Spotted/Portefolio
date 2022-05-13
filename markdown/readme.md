@@ -1,3 +1,10 @@
+---
+title: "About"
+permalink: "/about/"
+layout: page
+---
+
+
 #### hello there!
 
 This page will be used as a documentation on markdown (lightweight markup language).
