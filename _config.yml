@@ -1,4 +1,4 @@
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-minimal
 
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
