@@ -3,10 +3,8 @@ layout: default
 title: "Home"
 ---
 
-# About (index.md) works!
+# Welcome!
 
 [About](/README.md)  
 [Markdown](/markdown/readme.md)  
-[random](missing)  
-[404](/404.md)  
-[Posts](code.html)
+[Custom 404 Page](/404.md)
