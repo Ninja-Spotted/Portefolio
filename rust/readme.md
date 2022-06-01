@@ -4,4 +4,6 @@ permalink: "/rust"
 layout: default
 ---
 
-# Hi
+# Hi  
+
+Rust is hard -> Check out rust [here](https://www.rust-lang.org/)
