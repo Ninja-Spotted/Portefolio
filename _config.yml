@@ -4,7 +4,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "rust/readme.md", title: "Rust"}
   
   - {file: "pixelart/readme.md", title: "Pixel Art"}
-  - {file: "C_code/readme.md", title: "C Code"}
+  - {file: "c_code/readme.md", title: "C Code"}
 
 
 theme: jekyll-theme-cayman
