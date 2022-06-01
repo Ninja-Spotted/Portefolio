@@ -9,5 +9,5 @@ title: "Home"
 [Markdown](/markdown/readme.md)  
 [Rust](/rust/readme.md)  
 [Pixel Art](/pixelart/readme.md)  
-[C Code](/c_Code/readme.md)  
+[C Code](/c_code/readme.md)  
 [Custom 404 Page](/404.md)
