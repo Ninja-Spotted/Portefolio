@@ -49,7 +49,8 @@ Same result as reference
 ![My Avatar](/markdown/105322822.png "Original Avatar")
 <!--- ![My Avatar][avatar] -->
 ## quote-block
-> This is a quote  
+> This is a quote
+
 ## unordered-list
 * Milk
 * Eggs
