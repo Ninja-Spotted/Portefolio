@@ -10,6 +10,7 @@ layout: default
 - 🌱 I’m currently learning Rust and soon MicroPython.
 
 [Markdown](/markdown/readme.md)  
+[Rust](/rust/readme.md)  
 [Trying to add more pages to the site](https://docs.github.com/pt/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-page-to-your-site)
 ## Programs
 
