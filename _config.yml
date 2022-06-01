@@ -1,7 +1,10 @@
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "markdown/readme.md", title: "Markdown"}
-  - {file: "README.md", title: "Original page"}
-  - {file: "code.md", title: "Code"}
+  - {file: "README.md", title: "About"}
   - {file: "rust/readme.md", title: "Rust"}
+  
+  - {file: "pixelart/readme.md", title: "Pixel Art"}
+  - {file: "C_code/readme.md", title: "C Code"}
+
 
 theme: jekyll-theme-cayman
