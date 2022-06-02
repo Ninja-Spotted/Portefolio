@@ -3,6 +3,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md", title: "About"}
   - {file: "rust/readme.md", title: "Rust"}
   - {file: "pixelart/readme.md", title: "Pixel Art"}
+  - {file: "IED/readme.md", title: "ESP32 as IED"}
   - {file: "c_code/readme.md", title: "C Code"}
 
 
