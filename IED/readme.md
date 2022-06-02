@@ -1,3 +1,9 @@
+---
+title: "ESP32 as IED"
+permalink: "/IED"
+layout: default
+---
+
 # ESP32 as a IED for Protection, Automation and Control  
 
 ## Functionalities builtin:
