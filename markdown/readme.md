@@ -50,15 +50,21 @@ Same result as reference
 <!--- ![My Avatar][avatar] -->
 ## quote-block
 > This is a quote
+
+
 ## unordered-list
 * Milk
 * Eggs
 * Cookies
+
+
 ## ordered-list
 1. Gold
 2. Silver
 3. Bronze  
 Bronze is underatted
+
+
 # line-break
 How are you here?  
 That's pretty awesome!  
