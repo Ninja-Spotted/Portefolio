@@ -39,7 +39,7 @@ _Emphasis, aka italics, with *asterisks* or _underscores_._
 # H1
 ## H2
 ###### H6
-## inline-link 
+## inline-link
 [My Github Page](https://github.com/NinjaSpottedCoding/Main-Page)
 ## reference-link
 [My Website][website]
@@ -49,27 +49,27 @@ Same result as reference
 ![My Avatar](/markdown/105322822.png "Original Avatar")
 <!--- ![My Avatar][avatar] -->
 ## quote-block
-> This is a quote  
+> This is a quote
 ## unordered-list
 * Milk
 * Eggs
-* Cookies  
+* Cookies
 ## ordered-list
 1. Gold
 2. Silver
 3. Bronze  
-Bronze is underatted  
+Bronze is underatted
 # line-break
 How are you here?  
 That's pretty awesome!  
 ## code-block
     fn main() {
       println!("Hello, world!");
-    }  
+    }
 ## horizontal-bar
 ---------  
 [avatar]:/markdown/105322822.png
 [website]:https://ninjaspottedcoding.github.io/Main-Page/
 
-Thank you for finding this page, and remember to check out the resources used on this document, or others more directed to help learn how to use Markdown!  
+Thank you for finding this page, and remember to check out the resources used on this document, or others more directed to help learn how to use Markdown!   
 This page was written in 12/5/2022 and last updated in 06/06/2022.
