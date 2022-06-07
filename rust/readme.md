@@ -44,5 +44,6 @@ If everything works as intended, an “Hello, world!” was printed in the termi
             Running `target\debug\hello.exe`
         Hello, world!
         PS C:\Users\NinjaSpottedCoding\Documents\hello>
+
 Also, if you pay close attencion to the output of the terminal, you can see that the program was made into an executable file and it can be executed even with a double click (but you won’t see this message unless you execute it on a command line!).
 
