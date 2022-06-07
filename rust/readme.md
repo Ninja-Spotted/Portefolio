@@ -17,8 +17,8 @@ In the course of Eletrical and Computer Engineering, that means you can use the 
 \
 It’s important to note that Rust is also the [most loved language](https://insights.stackoverflow.com/survey/2021#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages) for the sixth-year according to the annual survey from Stack Overflow, but despite that, Rust is not yet among the five most used programming languages, since the learning curve can be quite stiff.  
 \
-The objective of this document is to present an introduction to the Rust language and some of it's applications.  
-\
+The objective of this document is to present an introduction to the Rust language and some of it's applications.
+
 #### Important features
 There is a few important concepts around the Rust Language that one should be aware of, for example, the Ownership feature, which makes Rust to be memory safe without needs for a garbage collector. It is Rust most unique feature, and, in contrary to other languages, with garbage collections or explicit need to allocate and free memory, Rust uses a set of rules that the compiler checks, and, if any are violated, the program won’t compile. On the positive side, it won’t slow down your program while running.
 Traits allow type classes to adopt different behaviors, inspired by the Haskell language. Basically, floats and integers can both implement the ‘Add’ trait and any type that can be printed implement the ‘Display’ or ‘Debug’ traits.
