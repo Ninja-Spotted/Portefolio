@@ -35,13 +35,14 @@ If the output was different, you may need to restart the shell for the changes t
 It is also advisable to install a IDE like [Visual Studio Code](https://code.visualstudio.com/) or [VSCodium](https://vscodium.com/) where you can install extensions for many languages and helps with code completion and highlights, but you can use a text editor like [Notepad++](https://notepad-plus-plus.org/downloads/), or the default on your system. For reference, in this guide we will be using Visual Studio Code, but VSCodium should have the same instructions.
 
 #### First steps (Hello, world!)
-Now that we are in conditions of starting programming, open up VS Code and start by choosing a folder in system where the files will be placed (File -> Open Folder) and start by opening the built-in terminal and type “cargo new hello”. This will create a new folder with the necessary files. Using the sidebar file explorer, navigate to hello/src/main.rs and open it. As you can see, the default file is already ready with the “Hello, world” ready to be printed in the terminal. To do this, navigate in the terminal to the hello folder (using “cd hello”) and then do “cargo run”. 
+Now that we are in conditions of starting programming, open up VS Code and start by choosing a folder in system where the files will be placed (File -> Open Folder) and start by opening the built-in terminal and type “cargo new hello”. This will create a new folder with the necessary files. Using the sidebar file explorer, navigate to hello/src/main.rs and open it. As you can see, the default file is already ready with the “Hello, world” ready to be printed in the terminal. To do this, navigate in the terminal to the hello folder (using “cd hello”) and then do “cargo run”.  
 If everything works as intended, an “Hello, world!” was printed in the terminal!
-    PS C:\Users\Francisco\Documents\SISTCA> cd hello
-    PS C:\Users\Francisco\Documents\SISTCA\hello> cargo run
-    Finished dev [unoptimized + debuginfo] target(s) in 0.01s
-         Running `target\debug\hello.exe`
-    Hello, world!
-    PS C:\Users\Francisco\Documents\SISTCA\hello>
+
+        PS C:\Users\NinjaSpottedCoding\Documents> cd hello
+        PS C:\Users\NinjaSpottedCoding\Documents\hello> cargo run
+            Finished dev [unoptimized + debuginfo] target(s) in 0.01s
+            Running `target\debug\hello.exe`
+        Hello, world!
+        PS C:\Users\NinjaSpottedCoding\Documents\hello>
 Also, if you pay close attencion to the output of the terminal, you can see that the program was made into an executable file and it can be executed even with a double click (but you won’t see this message unless you execute it on a command line!).
 
