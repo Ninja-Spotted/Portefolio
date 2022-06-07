@@ -7,13 +7,13 @@ layout: default
 
 ### Rust
 Rust is hard, but it can also be a great experience to anyone that finds the time to try and learn: Check out [Rust](https://www.rust-lang.org/).  
-It was launched in 2012 in collaboration with Mozilla, and its goal is to make possible to build reliable and eficient system software.  
-Rust is used by developers on networking software, for example, web servers, mail servers and web browsers. Furthermore, you can use it for game development, web-assembly programs, applications for embedded devices and command line programs. It is also present in compilers, intepreters, databases, operating systems and cryptrography.  
+It was launched in 2012 in collaboration with Mozilla, and its goal is to make possible to build reliable and efficient system software.  
+Rust is used by developers on networking software, for example, web servers, mail servers and web browsers. Furthermore, you can use it for game development, web-assembly programs, applications for embedded devices and command line programs. It is also present in compilers, interpreters, databases, operating systems and cryptography.  
 \
 One of the big advantages of rust is providing memory safety and correcting many bugs related with it's incorrect use in languages like C and C++. Another big advantage is it's ability to process large chunks of data.  
 \
 Rust is one of the most diversified languages to learn and start using to replace bloated code on other applications. Since 2018, the community around Rust has been improving the experience on various domains, such as CLI (Command Line Interface) Tools, WebAssembly, Networking and even Embedded devices with necessities for low-level control, developing various crates and guides to make the experience smoother.
-In the course of Eletrical and Computer Engineering, that means you can use the same language to build the structure to a database accessible on the web, programm microcontrollers, and even build your cross-platform programs. If you are interested, you can also use rust to build your own kernel, with bare metal support for the hardware.  
+In the Electrical and Computer Engineering Course, that means you can use the same language to build the structure to a database accessible on the web, program microcontrollers, and even build your cross-platform programs. If you are interested, you can also use rust to build your own kernel, with bare metal support for the hardware.  
 \
 It’s important to note that Rust is also the [most loved language](https://insights.stackoverflow.com/survey/2021#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages) for the sixth-year according to the annual survey from Stack Overflow, but despite that, Rust is not yet among the five most used programming languages, since the learning curve can be quite stiff.  
 \
@@ -26,10 +26,12 @@ There are also Macros, like ‘println!’ that can take form of function calls 
 
 #### Setup and Installation
 To get started with Rust, the first thing you should do is to go to the [official website](https://www.rust-lang.org/) and head to the “Getting Started” page. Here you can choose to install Rust through the tool called Rustup, which is supported on various systems and arquitectures, but for our convenience it will only show the version recommended for your system. During the installation it will advise to install the Visual C++ prerequisites on Windows from the link provided. Follow the instructions and continue with the installation.
-There is another prompt to see if the user wants to change directory of installation but it’s recommended to use the default settings.
+There is *__another prompt!!!!!!!!!!!!!__* to see if the user wants to change directory of installation but it’s recommended to use the default settings.
 After this step, Rust is installed on the system. To confirm this, just write in the console "rustc --version" and check if a prompt gets launched.
+
     C:\Users\Francisco>rustc --version
     rustc 1.59.0 (9d1b2106e 2022-02-23)
+
 If the output was different, you may need to restart the shell for the changes to occur.
 It is also advisable to install a IDE like [Visual Studio Code](https://code.visualstudio.com/) or [VSCodium](https://vscodium.com/) where you can install extensions for many languages and helps with code completion and highlights, but you can use a text editor like [Notepad++](https://notepad-plus-plus.org/downloads/), or the default on your system. For reference, in this guide we will be using Visual Studio Code, but VSCodium should have the same instructions.
 
