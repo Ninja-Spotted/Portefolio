@@ -14,7 +14,7 @@ layout: default
 [Trying to add more pages to the site](https://docs.github.com/pt/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-page-to-your-site)
 ## Interests
 
-Please feel free to click on a section if you are interested about it.  
+Please feel free to click on a section if you are also interested in.  
 
 - [Game Development](#game-development)
 - [Programming Languages](#programming-languages)
