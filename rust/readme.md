@@ -6,7 +6,7 @@ layout: default
 
 
 ### Rust
-Rust is hard, but it can also be a great experience to anyone that finds the time to try and learn -> Check out rust [here](https://www.rust-lang.org/).  
+Rust is hard, but it can also be a great experience to anyone that finds the time to try and learn: Check out [Rust](https://www.rust-lang.org/).  
 It was launched in 2012 in collaboration with Mozilla, and its goal is to make possible to build reliable and eficient system software.  
 Rust is used by developers on networking software, for example, web servers, mail servers and web browsers. Furthermore, you can use it for game development, web-assembly programs, applications for embedded devices and command line programs. It is also present in compilers, intepreters, databases, operating systems and cryptrography.  
 \
