@@ -5,8 +5,7 @@ layout: default
 ---
 
 
-#### Hi  
-
+#### Hi
 Rust is hard, but it can also be a great experience to anyone that finds the time to try and learn -> Check out rust [here](https://www.rust-lang.org/).  
 It was launched in 2012 in collaboration with Mozilla, and its goal is to make possible to build reliable and eficient system software.  
 Rust is used by developers on networking software, for example, web servers, mail servers and web browsers. Furthermore, you can use it for game development, web-assembly programs, applications for embedded devices and command line programs. It is also present in compilers, intepreters, databases, operating systems and cryptrography.  
@@ -20,7 +19,7 @@ It’s important to note that Rust is also the [most loved language](https://ins
 \
 The objective of this document is to present an introduction to the Rust language and some of it's applications.  
 \
-Important features:  
+#### Important features
 There is a few important concepts around the Rust Language that one should be aware of, for example, the Ownership feature, which makes Rust to be memory safe without needs for a garbage collector. It is Rust most unique feature, and, in contrary to other languages, with garbage collections or explicit need to allocate and free memory, Rust uses a set of rules that the compiler checks, and, if any are violated, the program won’t compile. On the positive side, it won’t slow down your program while running.
 Traits allow type classes to adopt different behaviors, inspired by the Haskell language. Basically, floats and integers can both implement the ‘Add’ trait and any type that can be printed implement the ‘Display’ or ‘Debug’ traits.
 There are also Macros, like ‘println!’ that can take form of function calls but operate on distinct terms, it can take various numbers of parameters and can implement traits before compilation. The main downside, is that you need to write more complex code, and you must define macros or have them called before using them, whether functions can be defined and called anywhere.
