@@ -72,6 +72,7 @@ That's pretty awesome!
     fn main() {
       println!("Hello, world!");
     }
+
 ## horizontal-bar
 ---------  
 [avatar]:/markdown/105322822.png
