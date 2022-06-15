@@ -23,3 +23,4 @@ layout: default
 7. HMI with keys: Using some digital inputs
 8. DNP3: [Here](https://en.wikipedia.org/wiki/DNP3) and [here](https://www.cdoancal.com/) and [here](https://books.google.pt/books?id=ENqyW8fExswC&lpg=PA9-IA1&ots=k8emukH8R_&dq=DNP3&lr&pg=PA7#v=onepage&q=DNP3&f=false)  
 9. I/O Modules: [Here](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2c.html#inter-integrated-circuit-i2c)
+10. Save Settings Permanently: [Here](https://randomnerdtutorials.com/esp32-save-data-permanently-preferences/)
