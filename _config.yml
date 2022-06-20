@@ -7,4 +7,4 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "c_code/readme.md", title: "C Code"}
 
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
