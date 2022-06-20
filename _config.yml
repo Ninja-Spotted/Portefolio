@@ -7,5 +7,5 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "c_code/readme.md", title: "C Code"}
 
 
-remote_theme: Huxpro/huxpro.github.io
+remote_theme: just-the-docs/just-the-docs
 
