@@ -12,16 +12,18 @@ Rust is used by developers on networking software, for example, web servers, mai
 \
 One of the big advantages of rust is providing memory safety and correcting many bugs related with it's incorrect use in languages like C and C++. Another big advantage is it's ability to process large chunks of data.  
 \
-Rust is one of the most diversified languages to learn and start using to replace bloated code on other applications. Since 2018, the community around Rust has been improving the experience on various domains, such as CLI (Command Line Interface) Tools, WebAssembly, Networking and even Embedded devices with necessities for low-level control, developing various crates and guides to make the experience smoother.
-In the Electrical and Computer Engineering Course, that means you can use the same language to build the structure to a database accessible on the web, program microcontrollers, and even build your cross-platform programs. If you are interested, you can also use rust to build your own kernel, with bare metal support for the hardware.  
+Rust is one of the most diversified languages to learn and start using to replace bloated code on other applications. Since 2018, the community around Rust has been improving the experience on various domains, such as CLI (Command Line Interface) Tools, WebAssembly, Networking and even Embedded devices with necessities for low-level control, developing various crates and guides to make the experience smoother.  
+That means you can use the same language to build the structure to a database accessible on the web, program microcontrollers, and even build your cross-platform programs. If you are interested, you can also use rust to build your own kernel, with bare metal support for the hardware.  
 \
 It’s important to note that Rust is also the [most loved language](https://insights.stackoverflow.com/survey/2021#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages) for the sixth-year according to the annual survey from Stack Overflow, but despite that, Rust is not yet among the five most used programming languages, since the learning curve can be quite stiff.  
 \
 The objective of this document is to present an introduction to the Rust language and some of it's applications.
 
 #### Important features
-There is a few important concepts around the Rust Language that one should be aware of, for example, the Ownership feature, which makes Rust to be memory safe without needs for a garbage collector. It is Rust most unique feature, and, in contrary to other languages, with garbage collections or explicit need to allocate and free memory, Rust uses a set of rules that the compiler checks, and, if any are violated, the program won’t compile. On the positive side, it won’t slow down your program while running.
-Traits allow type classes to adopt different behaviors, inspired by the Haskell language. Basically, floats and integers can both implement the ‘Add’ trait and any type that can be printed implement the ‘Display’ or ‘Debug’ traits.
+There is a few important concepts around the Rust Language that one should be aware of, for example, the Ownership feature, which makes Rust to be memory safe without needs for a garbage collector. It is Rust most unique feature, and, in contrary to other languages, with garbage collections or explicit need to allocate and free memory, Rust uses a set of rules that the compiler checks, and, if any are violated, the program won’t compile. On the positive side, it won’t slow down your program while running.  
+\
+Traits allow type classes to adopt different behaviors, inspired by the Haskell language. Basically, floats and integers can both implement the ‘Add’ trait and any type that can be printed implement the ‘Display’ or ‘Debug’ traits.  
+\
 There are also Macros, like ‘println!’ that can take form of function calls but operate on distinct terms, it can take various numbers of parameters and can implement traits before compilation. The main downside, is that you need to write more complex code, and you must define macros or have them called before using them, whether functions can be defined and called anywhere.
 
 #### Setup and Installation
