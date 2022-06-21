@@ -50,3 +50,10 @@ If everything works as intended, an “Hello, world!” was printed in the termi
 
 Also, if you pay close attencion to the output of the terminal, you can see that the program was made into an executable file and it can be executed even with a double click (but you won’t see this message unless you execute it on a command line!).
 
+### Basic Concepts
+#### Functions
+All programs in Rust must have a main function. The code inside this function is always the first code to be executed in a program. To declare a function in Rust, we use the fn keyword.
+
+        fn main(){
+            println!("Hello world!");
+        }
