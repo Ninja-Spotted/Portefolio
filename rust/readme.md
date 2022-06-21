@@ -31,7 +31,7 @@ To get started with Rust, the first thing you should do is to go to the [officia
 There is another prompt to see if the user wants to change directory of installation but it’s recommended to use the default settings.
 After this step, Rust is installed on the system. To confirm this, just write in the console "rustc --version" and check if a prompt gets launched.
 
-    C:\Users\Francisco>rustc --version
+    C:\Users\NinjaChomp>rustc --version
     rustc 1.59.0 (9d1b2106e 2022-02-23)
 
 If the output was different, you may need to restart the shell for the changes to occur.
