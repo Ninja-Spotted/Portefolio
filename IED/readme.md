@@ -1,5 +1,5 @@
 ---
-title: "ESP32 as gggggggggIED"
+title: "ESP32 as IED"
 permalink: "/IED"
 layout: default
 ---
