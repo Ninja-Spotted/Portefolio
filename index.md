@@ -10,5 +10,5 @@ title: "Home"
 [Rust](/rust/readme.md)  
 [Pixel Art](/pixelart/readme.md)  
 [C Code](/c_code/readme.md)  
-[ESP32 as IED](/IED/readme.md)  
+[ESP32 asaaaaaaaaaaaaaaaaaaaaaa IED](/IED/readme.md)  
 [Custom 404 Page](/404.md)
