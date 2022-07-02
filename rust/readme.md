@@ -4,6 +4,7 @@ permalink: "/rust"
 layout: default
 ---
 
+[PDF](/Portefolio/SISTCA_2021-22_3DG_Grupo4_Rust.pdf)
 
 ## Rust
 Rust is hard, but it can also be a great experience to anyone that finds the time to try and learn: Check out [Rust](https://www.rust-lang.org/).  
