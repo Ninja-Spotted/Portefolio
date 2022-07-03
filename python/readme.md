@@ -53,13 +53,15 @@ You can assign values to multiple variables simultaneously, for instance:
 
 Taking input from the user is very simple. The `input()` function takes input after printing the statement in the function parameter. It can then be saved in a variable and printed out.  
 \
-The most used statement to output variables is `print()`. You can combine text and variables. By using the `+` you can combine variables like text however if you use it with numbers it works as an operator.  
+The most used statement to output variables is `print()`. You can combine text and variables. By using the `+` operator you can combine variables like text however if you use it with numbers it works as an operator.
+
             x = input ("Enter your name: ")
             print("Hello, " + x)
 
 ### Conditions and Iterations
 
-#### Conditions can be expressed in Python using 3 keywords: `if`, `elif` and `else`:
+Conditions can be expressed in Python using 3 keywords: `if`, `elif` and `else`:
+
             a = 200
             b = 33
             if b > a:
@@ -69,7 +71,7 @@ The most used statement to output variables is `print()`. You can combine text a
             else:
                print("a is greater than b")
 
-#### Iterations are pieces of code that execute instructions until a condition is met or infinetely. You can also nest loops inside another.
+Iterations are pieces of code that execute instructions until a condition is met or infinetely. You can also nest loops inside another.
 ##### For Loop (Definitive iteration):
             for x in fruits:
                print(x)
@@ -84,6 +86,7 @@ The `break` statement can be used to exit a loop at an early stage.
 ### Functions
 
 A function is a sequence of code commands that is used for a particular task. To define a function, Python uses `def`. Then, to execute it, just call its name:
+
             def my_function():
                print("Hello from a function")
                
@@ -92,6 +95,7 @@ A function is a sequence of code commands that is used for a particular task. To
 ### Modules
 
 We can extend the functionalities of Python using Modules. They are code libraries that contain extra functions like for date and time. To use modules you use the `import` keyword:
+
             inport datetime
             x = datetime.datetime.now()
             print(x)
@@ -101,6 +105,7 @@ We can extend the functionalities of Python using Modules. They are code librari
 Classes are a object-oriented programming blueprints to create objects using the keyword `class`. It will contain attributes that can be acceced with the dot (.) operator.  
 \
 All classes **should** have a function called __init__(), that allows it to create instances of this class and assign values. It is automatically executed when an instance of the class is initialized:
+
             class Person:
                def __init__(self, name, age):
                   self.name = name
@@ -111,5 +116,6 @@ All classes **should** have a function called __init__(), that allows it to crea
             print(p1.age)
             
 Methods are quite similar to functions. The main difference is that a method is  called on an object, and a function is not. That means a method can change the state of an object but a function can only operate on it, not change it.
+
             def mymethod(self):
                print("Hello my name is " + self.name)
