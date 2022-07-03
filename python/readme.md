@@ -45,9 +45,9 @@ To create a variable you don't need to declare variables before using them, or e
 * You must start the name of variable with a letter or underscore character
 * Can only contain alpha-numeric and underscores
 * Variable names are case-sensitive, which means `Result`, `RESULT` and `result` are three different variables.  
+\
 You can assign values to multiple variables simultaneously, for instance:  
-`a=b=1`  
-`a, b, c = 1, 2, "result"` --> Two integers and one string object
+`a=b=1` or `a, b, c = 1, 2, "result"`  
 
 ### Input and Output 
 
