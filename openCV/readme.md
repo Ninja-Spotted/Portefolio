@@ -69,8 +69,8 @@ Finally, the `destroyWindow()` function closes the window and frees the memory.
 
 Loading a video is very similar to loading an image, but we need a loop to read each frame of the stream. The example builds on the "highgui" and "imgproc" libraries:
 
-        #include "/opencv-4.x/modules/highgui/include/opencv2/highgui.hpp"  
-        #include "/opencv-4.x/modules/imgproc/include/opencv2/imgproc.hpp"
+        #include "./opencv-4.x/modules/highgui/include/opencv2/highgui.hpp"  
+        #include "./opencv-4.x/modules/imgproc/include/opencv2/imgproc.hpp"
 
         int main(int argc, char ** argv) {
                 cv::namedWindow("Program2", cv::WINDOW_AUTOSIZE);
