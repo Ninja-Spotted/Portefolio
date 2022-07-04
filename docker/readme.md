@@ -28,7 +28,7 @@ For that we do: `sudo apt-get update` followed by
     ca-certificates \
     curl \
     gnupg \
-    lsb-release` and then add the GPG keys with `sudo mkdir -p /etc/apt/keyrings` and then ` curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg`. Finally, use `echo \
+    lsb-release` and then add the GPG keys with `sudo mkdir -p /etc/apt/keyrings` and then `curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg` . Finally, use `echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null` to set up the repository.  
   \
