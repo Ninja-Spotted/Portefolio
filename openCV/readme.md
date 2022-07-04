@@ -160,7 +160,7 @@ The `int g_dontset = 0` global variable assignment guarantees that the program j
 
 This program takes an input image and filters it out, producing an output image. Both are 3 channels (RGB) and 8 bits per channel:
 
-        #include “./opencv-4.x/include/opencv2/opencv.hpp”
+        #include "./opencv-4.x/include/opencv2/opencv.hpp"
         
         using namespace cv;
         
