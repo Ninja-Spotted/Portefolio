@@ -123,4 +123,4 @@ The "-d" flag stands for detached (they will run in background). To see the resu
 \
 To remove both containers simultaneously use: `docker compose down`
 
-#### This page was written in 04/5/2022 and last updated in 04/07/2022.
+#### This page was written in 03/07/2022 and last updated in 04/07/2022.
