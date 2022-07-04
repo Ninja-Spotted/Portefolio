@@ -95,8 +95,8 @@ After each frame, there is a waiting time of 33 milliseconds, for a 30 fps rate.
 
 For this we will have a slider that will control the frame output on the screen:
 
-        #include “opencv2/highgui/highgui.hpp"
-        #include “opencv2/imgproc/imgproc.hpp"
+        #include "./opencv-4.x/modules/highgui/include/opencv2/highgui.hpp"  
+        #include "./opencv-4.x/modules/imgproc/include/opencv2/imgproc.hpp"
         #include <iostream>
         #include <fstream>
         using namespace std;
@@ -145,3 +145,13 @@ For this we will have a slider that will control the frame output on the screen:
                 
         return(0);
         }
+
+The global variable `g_slider_position` and `g_run` are defined at the beginning. The `g_run` is used by a kind of state machine, as follows:  
+`g_run = 0` : Runs in "Idle" mode, waiting for key input  
+`g_run = 1` : Enters mode `Single Step`, moving 1 frame ahead  
+`g_run = -1` or `g_run < 0` : Enters mode `Run`, presenting the video at 100 fps, until it reaches the end.  
+\
+The `int g_dontset = 0` global variable assignment guarantees that the program just changes to state 1 when the slider is moved (dragged) using the PC mouse.
+
+
+# Finish this SOON!
