@@ -155,3 +155,25 @@ The `int g_dontset = 0` global variable assignment guarantees that the program j
 
 
 # Finish this SOON!
+
+### Example 4: Applying a Gaussian blur filter to an image
+
+This program takes an input image and filters it out, producing an output image. Both are 3 channels (RGB) and 8 bits per channel:
+
+        #include “./opencv-4.x/include/opencv2/opencv.hpp”
+        
+        using namespace cv;
+        
+        int main(int argc, char ** argv) {
+                Mat image_original = imread(argv[1], -1);
+                namedWindow("Program4_image_original", WINDOW_AUTOSIZE);
+                imshow("Program4_image_original", image_original);
+                Mat image_filtered;
+                namedWindow("Program4_image_filtered", WINDOW_AUTOSIZE);
+                GaussianBlur(image_original, image_filtered, Size(5, 5), 3, 3);
+                imshow("Program4_image_filtered", image_filtered);
+                waitKey(0);
+                return(0);
+        }
+
+
