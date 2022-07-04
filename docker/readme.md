@@ -118,6 +118,8 @@ This will present one exclusive function of PHP7, which will serve to demonstrat
 \
 To start the containers, execute: `docker compose up -d` (*warning* most forums I found are outdated and use `docker-compose`).  
 The "-d" flag stands for detached (they will run in background). To see the results, you should access ‘http://localhost:8082’ and ‘http://localhost:8083’, respectively.  
+![phpversions](https://user-images.githubusercontent.com/105322822/177063521-5537451d-b355-458e-831b-6c6619b0594e.PNG)
+
 \
 To remove both containers simultaneously use: `docker compose down`
 
