@@ -176,4 +176,33 @@ This program takes an input image and filters it out, producing an output image.
                 return(0);
         }
 
+### Example 5: Converting a video into grey-scale and storing it
 
+This program converts an input video into a grey-scaled video. The arguments define the name of the original video and the output to be created.
+
+        #include "./opencv-4.x/include/opencv2/opencv.hpp"
+        #include <iostream>
+        
+        int main(int argc, char * argv[]) {
+                cv::namedWindow("Example5", cv::WINDOW_AUTOSIZE);
+                cv::namedWindow("Gray_imgr", cv::WINDOW_AUTOSIZE);
+                cv::VideoCapture capture(argv[1]);
+                double fps = capture.get(cv::CAP_PROP_FPS);
+                cv::Size size((int) capture.get(cv::CAP_PROP_FRAME_WIDTH), (int)capture.get(cv::CAP_PROP_FRAME_HEIGHT));
+                cv::VideoWriter writer;
+                writer.open(argv[2], CV_FOURCC('M', 'J', 'P', 'G'), fps, size);
+                cv::Mat gray_frame, colour_frame;
+                
+                for (;;) {
+                        capture >> colour_frame;
+                        if (colour_frame.empty()) break;
+                        cv::imshow("Example5", colour_frame);
+                        cv::cvtColor(colour_frame, gray_frame, CV_RGB2GRAY);
+                        cv::imshow("Gray_imgr", gray_frame);
+                        writer << gray_frame;
+                        char c = (char) cv::waitKey(10);
+                        if (c == 27) break; // allow the user to exit using the Escape key
+                }
+                capture.release();
+        }
+        
