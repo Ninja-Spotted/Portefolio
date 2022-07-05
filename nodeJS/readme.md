@@ -23,5 +23,13 @@ In this document, we will use the Express library, which has become very popular
 
 ### Instalation
 
+            sudo apt update
+            curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+            
+            
+            sudo apt install dirmngr gnupg apt-transport-https software-properties-common ca-certificates curl
+            curl -fsSL https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+            sudo add-apt-repository 'deb https://repo.mongodb.org/apt/debian buster/mongodb-org/4.2 main'
+        
 
 
