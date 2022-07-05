@@ -6,6 +6,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "IED/readme.md", title: "ESP32 as IED"}
   - {file: "c_code/readme.md", title: "C Code"}
 
-logo: "/steam.png"
+#logo: "/steam.png"
+aux_links:
+  "Portefolio on GitHub":
+    - "github.com/NinjaChomp/Portefolio"
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
