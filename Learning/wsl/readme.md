@@ -1,6 +1,7 @@
 ---
 title: "Windows Subsystem for Linux"
-permalink: "/wsl"
+parent: Learning
+permalink: "/learning/wsl"
 layout: default
 ---
 
