@@ -1,6 +1,7 @@
 ---
 title: "MQTT"
-permalink: "/mqtt"
+parent: Learning
+permalink: "/learning/mqtt"
 layout: default
 ---
 
