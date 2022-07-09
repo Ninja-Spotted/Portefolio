@@ -1,6 +1,7 @@
 ---
 title: "OpenCV"
-permalink: "/opencv"
+parent: Learning
+permalink: "/learning/opencv"
 layout: default
 ---
 
