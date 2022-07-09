@@ -1,6 +1,7 @@
 ---
 title: "Markdown"
-permalink: "/markdown"
+parent: Learning
+permalink: "/learning/markdown"
 layout: default
 ---
 
