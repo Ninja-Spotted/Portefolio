@@ -1,6 +1,7 @@
 ---
 title: "Weka"
-permalink: "/weka"
+parent: Learning
+permalink: "/learning/weka"
 layout: default
 ---
 
