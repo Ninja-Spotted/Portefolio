@@ -1,6 +1,7 @@
 ---
 title: "Docker"
-permalink: "/docker"
+parent: Learning
+permalink: "/learning/docker"
 layout: default
 ---
 
