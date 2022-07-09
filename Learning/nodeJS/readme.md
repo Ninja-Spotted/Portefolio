@@ -1,6 +1,7 @@
 ---
 title: "Node.js"
-permalink: "/nodejs"
+parent: Learning
+permalink: "/learning/nodejs"
 layout: default
 ---
 
