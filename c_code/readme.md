@@ -10,7 +10,7 @@ In C and other languages, libraries are used to reutilize code in different appl
 
 #### Static Libraries
 
-This files are recognized for the `.a` extention. They archive `.o` files
+These files are recognized for the `.a` extention. They archive `.o` files
 (as an example: `ar r libfile.a ofile1.o ofile2.o` will create an static library) which allows them to be linked when compiling the main program.
 
 For example: `cc -o executable ofile1.o ofile2.o -Llibdir -l example` (where example refers to the file `libexample.a` and libdir being the library directory) will generate a executable with:
