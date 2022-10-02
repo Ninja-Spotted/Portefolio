@@ -1,6 +1,6 @@
 ---
-title: "C Programming"
-permalink: "/c_code"
+title: "C Libraries"
+permalink: "/libraries"
 layout: default
 ---
 
