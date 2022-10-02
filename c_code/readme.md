@@ -27,6 +27,33 @@ After that, `ldconfig` can be used to create the necessary links and cache to th
 \
 `cc -o executable ofile1.o ofile2.o -Llibdir -lexampleso` (where exampleso refers to the file `exampleso.so` and libdir being the library directory) will generate a executable that **loads the library in the start of the application**:
 
-- Smaller Size Executables
+- Smaller Size
 - Shared code on different executables
 - Executables dependent on installed libraries
+
+#### Dynamic Linking/Loading
+
+Dynamic Linking/Loading is the true intent of this kind of library. With it, we can load the dynamic shared object file (shared library) and keep the advantages of shared linking: shared memory across aplications, smaller program size and no need to bring out new versions of your program if one of the libraries gets updated. As an example:
+
+        #include <stdio.h>
+        #include <dlfcn.h>
+        main()
+        {
+          int a=12;
+          int b=6;
+          int c;
+          void *handle;
+          int (*fsum)(int,int);
+          handle = dlopen ("libsum.so", RTLD_LAZY);   // Loads the library
+          fsoma = dlsym(handle, "sum");               // Obtain pointer to symbol
+          c = (*fsum)(a,b);                           // Using pointed object
+          dlclose(handle);                            // Freeing library
+          printf("%d + %d = %d\n", a, b, c);
+        }
+
+#### Pratic Terminal Command Lines
+
+- nm : Lists symbols from object files
+- objdump : Displays information about object files (such as assembly form)
+- ls -l : Lists the names of the files in directory along with the permissions, date, time and size
+- grep : Can be used in conjunction with other commands to filter content from their outputs
