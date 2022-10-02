@@ -1,7 +1,7 @@
 ---
 title: "Libraries"
 parent: C code
-permalink: "/libraries"
+permalink: "/c/libraries"
 layout: default
 ---
 
