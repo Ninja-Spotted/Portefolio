@@ -1,6 +1,6 @@
 ---
 title: "C Libraries"
-parent: C Code
+parent: C code
 permalink: "/libraries"
 layout: default
 ---
