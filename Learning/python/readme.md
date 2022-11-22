@@ -1,6 +1,7 @@
 ---
 title: "Python"
-permalink: "/python"
+parent: Learning
+permalink: "/learning/python"
 layout: default
 ---
 
