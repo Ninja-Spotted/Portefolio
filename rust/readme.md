@@ -32,7 +32,7 @@ To get started with Rust, the first thing you should do is to go to the [officia
 There is another prompt to see if the user wants to change directory of installation but it’s recommended to use the default settings.
 After this step, Rust is installed on the system. To confirm this, just write in the console "rustc --version" and check if a prompt gets launched.
 
-    C:\Users\NinjaChomp>rustc --version
+    C:\Users\NinjaSpotted>rustc --version
     rustc 1.59.0 (9d1b2106e 2022-02-23)
 
 If the output was different, you may need to restart the shell for the changes to occur.
@@ -42,12 +42,12 @@ It is also advisable to install a IDE like [Visual Studio Code](https://code.vis
 Now that we are in conditions of starting programming, open up VS Code and start by choosing a folder in system where the files will be placed (File -> Open Folder) and start by opening the built-in terminal and type 'cargo new hello'. This will create a new folder with the necessary files. Using the sidebar file explorer, navigate to hello/src/main.rs and open it. As you can see, the default file is already ready with the “Hello, world" ready to be printed in the terminal. To do this, navigate in the terminal to the hello folder (using 'cd hello') and then do 'cargo run'.  
 If everything works as intended, an “Hello, world!” was printed in the terminal!
 
-        PS C:\Users\NinjaChomp\Documents> cd hello
-        PS C:\Users\NinjaChomp\Documents\hello> cargo run
+        PS C:\Users\NinjaSpotted\Documents> cd hello
+        PS C:\Users\NinjaSpotted\Documents\hello> cargo run
             Finished dev [unoptimized + debuginfo] target(s) in 0.01s
             Running `target\debug\hello.exe`
         Hello, world!
-        PS C:\Users\NinjaChomp\Documents\hello>
+        PS C:\Users\NinjaSpotted\Documents\hello>
 
 Also, if you pay close attencion to the output of the terminal, you can see that the program was made into an executable file and it can be executed even with a double click (but you won’t see this message unless you execute it on a command line!).
 
