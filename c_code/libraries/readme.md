@@ -1,7 +1,7 @@
 ---
 title: "Libraries"
-parent: C code
-permalink: "/c/libraries"
+parent: Computer Architecture
+permalink: "/computer_architecture/libraries"
 layout: default
 ---
 
