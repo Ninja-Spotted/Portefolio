@@ -1,7 +1,7 @@
 ---
 title: "Filesystems"
-parent: C code
-permalink: "/c/git"
+parent: Computer Architecture
+permalink: "/computer_architecture/git"
 layout: default
 ---
 
