@@ -1,5 +1,5 @@
 ---
-title: "Computer Arquitecture"
+title: "Computer Architecture"
 permalink: "/computer_architecture"
 has_children: true
 layout: default
