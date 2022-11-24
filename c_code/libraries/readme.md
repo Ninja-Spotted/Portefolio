@@ -1,5 +1,5 @@
 ---
-title: "Libraries"
+title: "C Libraries"
 parent: Computer Architecture
 permalink: "/computer_architecture/libraries"
 layout: default
