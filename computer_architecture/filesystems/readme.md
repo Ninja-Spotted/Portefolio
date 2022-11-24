@@ -1,7 +1,7 @@
 ---
 title: "Filesystems"
 parent: Computer Architecture
-permalink: "/computer_architecture/git"
+permalink: "/computer_architecture/filesystems"
 layout: default
 ---
 
