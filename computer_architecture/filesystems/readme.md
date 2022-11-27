@@ -55,16 +55,46 @@ Automatic mounting (by adding an entry in): `/etc/fstab`
 * Linux
      * Ext2 (Traditional Linux Filesystem)
      * Ext4
+     * Others (reiserFS, JFS, XFS, btrfs)
      * [Squashfs](https://docs.kernel.org/filesystems/squashfs.html#squashfs-4-0-filesystem) (Read-only, compressed, used in most live USB distributions)  
      Fine for kernel and binaries, with great compression rate and access performance
-     * Others (reiserFS, JFS, XFS, btrfs)
+     
+ * __*DO NOT USE*__ RAM Disks (Filesystem in RAM, inverse concept of swap which is RAM on disk)  
+RAM disks have fixed sizes and are treated like regular disk partitions. This means that we can access it like a physical disc, while being much faster.  
+However, all RamDisk data is lost when the system is powered off and/or rebooted.
+
+* [tmpfs](https://docs.kernel.org/filesystems/tmpfs.html#tmpfs)  
+Useful to store temporary data in RAM, lives in the Linux file cache and doesn't waste RAM (no duplication). Examples on how to use it:  
+`mount -t tmpfs varrun /var/run` or `mount -t tmpfs udev /dev` 
+
+* Flash storage (EEPROM)
+     * YAFFS – Yet Another Flash File System
+     * JFFS / JFFS2 – Journaling Flash File System
+     * UBIFS - Unsorted Block Image File System
 
 #### Unix Filesystems Concepts
 
 In Unix filesystems, files are represented by [inodes](https://unix.stackexchange.com/a/4403). These are structures that contain file descriptions (type, access right, owners, size, pointers) and are kept in memory by the kernel (open).  
 Directories are special files ([dentry lists](https://unix.stackexchange.com/a/4403)) and devices are accessed by I/O on special files.
 
-Journaled Filesystems were designed to keep in working order after a sudden shutdown or crash. All changes are first described in the jornal before being commited to files (and then cleared).
+Journaled Filesystems were designed to keep in working order after a sudden shutdown or crash. All changes are first described in the jornal before being commited to files (and then cleared).  
+This also increases substantially the number of writes, that can reduce flash storage lifespan. Some workarounds are external journals or even no jornals.  
+
+Virtual Filesystem is a abstraction which allows multiple filesystems to be supported simultaneously by the kernel.  
+
+Swap space is RAM on disk, and so, it is much slower to access.
+
+
+#### Raid (Redundant Array of Inexpensive Disks)
+
+Can reduce latency by writing/reading in parallel, increase reliability by exploiting redundancy and can be implemented in hardware/software.
+Types of Raid:
+* Raid 0: Stripping data across discs (read/write in parallel but decreases reliability)
+* Raid 1: Mirroring (Redundancy, reliability, potencially better read performance)
+* Raid 3: Block Parity in extra disk
+* Raid 4: Stripping + Block-level Parity
+* Raid 5: Stripping + Block-level Distributed Parity
+* Raid 10: (N Disks at Raid 1) doing Raid 0 with (another N Disks at Raid 1)
 
 #### Adding a new disk
 
