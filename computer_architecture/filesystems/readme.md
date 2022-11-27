@@ -47,19 +47,24 @@ Automatic mounting (by adding an entry in): `/etc/fstab`
 #### Types of Filesystems
 
 * Windows
+     * vFAT (Traditional Windows Filesystem) 
      * FAT16 (Compatible with all but maximum of 4 Gb)
      * FAT32 
      * NTFS
 
 * Linux
-     * Ext2/3/4
-     * Others
+     * Ext2 (Traditional Linux Filesystem)
+     * Ext4
+     * [Squashfs](https://docs.kernel.org/filesystems/squashfs.html#squashfs-4-0-filesystem) (Read-only, compressed, used in most live USB distributions)  
+     Fine for kernel and binaries, with great compression rate and access performance
+     * Others (reiserFS, JFS, XFS, btrfs)
 
 #### Unix Filesystems Concepts
 
 In Unix filesystems, files are represented by [inodes](https://unix.stackexchange.com/a/4403). These are structures that contain file descriptions (type, access right, owners, size, pointers) and are kept in memory by the kernel (open).  
 Directories are special files ([dentry lists](https://unix.stackexchange.com/a/4403)) and devices are accessed by I/O on special files.
 
+Journaled Filesystems were designed to keep in working order after a sudden shutdown or crash. All changes are first described in the jornal before being commited to files (and then cleared).
 
 #### Adding a new disk
 
