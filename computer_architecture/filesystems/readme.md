@@ -18,6 +18,13 @@ For example:
 - Sector: containing 512 bytes.
 - Cluster: aka allocation unit, it consists of one or more sectors and represents the minimum amount of space that an operating system allocates for saving a file.
 
+It is possible to check the information about a disk using `hdparm -i /dev/your_disk`. Use `lsblk` to get a list of partitions and disks the system.
+
+#### Disk Devices and Booting
+
+[source](https://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/bootup.html)  
+Usually, when a computer is turned on
+
 #### Relevant Commands
 
 ##### [tar](https://www.ibm.com/docs/en/aix/7.1?topic=t-tar-command) (Tape archive)
