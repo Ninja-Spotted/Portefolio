@@ -74,13 +74,15 @@ Useful to store temporary data in RAM, lives in the Linux file cache and doesn't
 
 #### Unix Filesystems Concepts
 
-In Unix filesystems, files are represented by [inodes](https://unix.stackexchange.com/a/4403). These are structures that contain file descriptions (type, access right, owners, size, pointers) and are kept in memory by the kernel (open).  
-Directories are special files ([dentry lists](https://unix.stackexchange.com/a/4403)) and devices are accessed by I/O on special files.
+In Unix filesystems, files are represented by [inodes / i-nodes](https://unix.stackexchange.com/a/4403). These are structures that contain file descriptions (type, access right, owners, size, pointers) and are kept in memory by the kernel (open).  
+Directories are special files ([dentry / d-entry lists](https://unix.stackexchange.com/a/4403)) and devices are accessed by I/O on special files.
 
 Journaled Filesystems were designed to keep in working order after a sudden shutdown or crash. All changes are first described in the jornal before being commited to files (and then cleared).  
 This also increases substantially the number of writes, that can reduce flash storage lifespan. Some workarounds are external journals or even no jornals.  
 
 Virtual Filesystem is a abstraction which allows multiple filesystems to be supported simultaneously by the kernel.  
+Mixing filesystems can be done using symbolic links `ln -s` or with something like UnionFS.  
+To freely expand and shrink filesystems (usually sitting on a partition, being limited by disk size), it is used a "Virtual Volume Manager" that separates the physical composition of the storage devices from logical exposure.  
 
 Swap space is RAM on disk, and so, it is much slower to access.
 
