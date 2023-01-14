@@ -1,7 +1,7 @@
 ---
-title: "Boot"
+title: "Processors"
 parent: Computer Architecture
-permalink: "/computer_architecture/boot"
+permalink: "/computer_architecture/processors"
 layout: default
 ---
 
