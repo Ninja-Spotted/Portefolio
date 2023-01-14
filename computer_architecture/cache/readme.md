@@ -1,7 +1,7 @@
 ---
-title: "Boot"
+title: "Cache"
 parent: Computer Architecture
-permalink: "/computer_architecture/boot"
+permalink: "/computer_architecture/cache"
 layout: default
 ---
 
