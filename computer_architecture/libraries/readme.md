@@ -22,7 +22,7 @@ For example: `cc -o executable ofile1.o ofile2.o -Llibdir -l example` (where exa
 
 #### Shared Libraries
 
-These files with the `.so` extensiozzzn are are dynamically linked shared object libraries and can be obtained using `cc -o libfile.so -shared ofile1.o ofile2.o`.
+These files with the `.so` extension are are dynamically linked shared object libraries and can be obtained using `cc -o libfile.so -shared ofile1.o ofile2.o`.
 \
 After that, `ldconfig` can be used to create the necessary links and cache to the most recent shared libraries found in the directories specified on the command line.
 \
