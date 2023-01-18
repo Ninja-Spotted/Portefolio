@@ -26,7 +26,7 @@ These files with the `.so` extension are are dynamically linked shared object li
 \
 After that, `ldconfig` can be used to create the necessary links and cache to the most recent shared libraries found in the directories specified on the command line.
 \
-`cc -o executable ofile1.o ofile2.o -Llibdir -lexampleso` (where exampleso refers to the file `exampleso.so` and libdir being the library directory) will generate a executable that **loads the library in the start of the application**:
+`cc -o executable ofile1.o ofile2.o -Llibdir -l exampleso` (where exampleso refers to the file `exampleso.so` and libdir being the library directory) will generate a executable that **loads the library in the start of the application**:
 
 - Smaller Size
 - Shared code on different executables
