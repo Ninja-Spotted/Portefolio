@@ -25,7 +25,9 @@ IPv4 uses 32-bit adresses (unique for each machine). They are divided in 2 parts
 
 There is a concept called address class, which divides diferent types of networks based on the number and division made between NetID and HostID. This meant that a lot of addresses of classes with a high number of HostID possiblities would go unutilized.  
 
-Network masks are used to separate the NetID and HostID in an address. They can range between 0.0.0.0 and 255.255.255.255, just like IP addresses. They can be used to agregate various smaller networks into a bigger one called a supernet/subnetting.
+Network masks are used to separate the NetID and HostID in an address. They can range between 0.0.0.0 and 255.255.255.255, just like IP addresses. They can be used to agregate various smaller networks into a bigger one called a supernet/subnetting (CIDR - Classless InterDomain Routing).  
+
+An example of a IP with CIDR notation: 192.136.63.0 /24
 
 
 #### IP Protocol
@@ -50,6 +52,27 @@ Finally, there is a field for the Protocol being used in the layer above, and th
 
 #### Addressing
 
-Machines in the same network share the same NetID, but they can have multiple IP numbers for conections to multiple networks. Diferent networks mean having different IP addresses, and they don't communicate directly, but via routers.
+Machines in the same network share the same NetID, but they can have multiple IP numbers for conections to multiple networks. Diferent networks mean having different IP addresses, and they don't communicate directly, but via routers.  
+The routers would then consult a routing table to know where to send the packet.
 
+#### Routing tables
 
+These tables contain information about the Destination IP address, the IP of the "next hop", the next router that the packet should be handled to, and the Interface used to pass the packet (the Netmask is used as well if there are non-default masks).
+
+| Destination   | Gateway       | Interface |
+|---------------|---------------|-----------|
+| 140.252.13.65 | 140.252.13.35 | emd0      |
+| 127.0.0.1     | 127.0.0.1     | lo0       |
+| Default       | 140.252.13.34 | emd0      |
+
+#### Often used commands
+
+- `ifconfig`: Used to configure or check state of network interfaces
+    - Up/Down: Activates/Deactivates an interface
+    - arp: Enables/Disables the ARP protocol on an interface
+    - netmask addr: Defines a network mask (if different from default)
+    - address: Attributes a IP address to a network interface
+- `ip`: Show/Manipulates routing, devices, routing policy and tunnels
+- `ping`: Basic connectivity test (indicates if a machine is accessible
+- `route`: Can be used to configure or show routing tables
+    - add/del: Add/remove a route
