@@ -6,9 +6,9 @@ title: "Home"
 # Welcome!
 
 [About](/readme.md)  
-[Markdown](/markdown/readme.md)  
+[Markdown](/learning/markdown/readme.md)  
 [Rust](/rust/readme.md)  
-[Pixel Art](/pixelart/readme.md)  
-[C Code](/c_code/readme.md)  
-[ESP32 as IED](/IED/readme.md)  
+[Learning Topics](/learning/readme.md)  
+[Computer Architecture Topics](/computer_architecture/readme.md)  
+[Network Management Topics](/interconexions_network_management/readme.md)  
 [Custom 404 Page](/404.md)
