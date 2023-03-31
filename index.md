@@ -5,10 +5,14 @@ title: "Home"
 
 # Welcome!
 
-[About](/readme.md)  
-[Markdown](/learning/markdown/readme.md)  
-[Rust](/rust/readme.md)  
-[Learning Topics](/learning/readme.md)  
-[Computer Architecture Topics](/computer_architecture/readme.md)  
-[Network Management Topics](/interconexions_network_management/readme.md)  
-[Custom 404 Page](/404.md)
+## Please use the side menu for navigation on the website.
+
+### Things to add in the future:
+
+- Make a newsfeed in this page about the things I post on my website, if possible with dates in them
+- Organize the folders better (learning folder and the others)
+- Try to upload more consistently
+- Work on some UI/UX fixes and add images
+- Prepare a template to use for future pages
+
+## For now I hope this website can be of use to anyone.
