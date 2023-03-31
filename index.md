@@ -7,7 +7,7 @@ title: "Home"
 
 ## Please use the side menu for navigation on the website.
 
-### Things to add in the future:
+### Things to do:
 
 - Make a newsfeed in this page about the things I post on my website, if possible with dates in them
 - Organize the folders better (learning folder and the others)
