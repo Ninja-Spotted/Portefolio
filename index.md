@@ -12,6 +12,7 @@ title: "Home"
 - Make a newsfeed in this page about the things I post on my website, if possible with dates in them
 - Organize the folders better (learning folder and the others)
 - Try to upload more consistently
+- SITE DOWN
 - Work on some UI/UX fixes and add images
 - Prepare a template to use for future pages
 
