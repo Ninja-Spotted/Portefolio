@@ -46,7 +46,7 @@ Can be described as a sum of products: eq = /i0 . /i1 + i0 . i1
 	architecture sop_arch of eq1 is		-- Association ENTITY/ARCHITECTURE
 		signal p0, p1: std_logic;	-- Definition of internal signals ("variables")
 	
-	begin																	-- This is not sequential code!!!
+	begin					-- This is not sequential code!!!
 		-- sum of two product terms
 		eq <= p0 or p1;			-- Output with result
 		-- product terms
