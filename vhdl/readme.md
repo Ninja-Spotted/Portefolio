@@ -33,25 +33,25 @@ Can be described as a sum of products: eq = /i0 . /i1 + i0 . i1
 #### Gate-level Description (Functional or Dataflow):
 
 	library ieee;
-	use ieee. std_logic_1164. all ;			-- VHDL Standard
+	use ieee. std_logic_1164. all ;		-- VHDL Standard
 
 
-	entity eq1 is												-- I/O of the comparator
+	entity eq1 is				-- I/O of the comparator
 		port (
-			i0, i1: in std_logic;						-- 2 Inputs
-			eq: out std_logic								-- 1 Output
+			i0, i1: in std_logic;	-- 2 Inputs
+			eq: out std_logic	-- 1 Output
 		) ;
 	end eq1;
 
-	architecture sop_arch of eq1 is			-- Association ENTITY/ARCHITECTURE
-		signal p0, p1: std_logic;					-- Definition of internal signals ("variables")
+	architecture sop_arch of eq1 is		-- Association ENTITY/ARCHITECTURE
+		signal p0, p1: std_logic;	-- Definition of internal signals ("variables")
 	
-	begin																-- This is not sequential code!!!
+	begin																	-- This is not sequential code!!!
 		-- sum of two product terms
-		eq <= p0 or p1;										-- Output with result
+		eq <= p0 or p1;			-- Output with result
 		-- product terms
-		p0 <= (not i0) and (not i1);			-- Condition 1
-		p1 <= i0 and i1;									-- Or Condition 2
+		p0 <= (not i0) and (not i1);	-- Condition 1
+		p1 <= i0 and i1;		-- Or Condition 2
 	end sop_arch;
  
 ![image](https://github.com/Ninja-Spotted/Portefolio/assets/105322822/52cedb30-cf90-42b5-ac8d-d0467b3d033f)
