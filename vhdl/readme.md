@@ -56,3 +56,15 @@ Can be described as a sum of products: eq = /i0 . /i1 + i0 . i1
  
 ![image](https://github.com/Ninja-Spotted/Portefolio/assets/105322822/52cedb30-cf90-42b5-ac8d-d0467b3d033f)
 
+#### Entity declaration
+
+- IN --> Signal/data goes into the entity only
+- OUT --> signal/data goes out of the entity only (and is not used internally)
+- INOUT --> signal/data is bi-directional (goes into and out of the entity)
+- BUFFER --> signal/data that goes out of the entity and is also fed-back internally
+
+#### Data Types
+- IEEE.STD_LOGIC_1164.ALL
+  - STD_LOGIC, STD_LOGIC_VECTOR, STD_ULOGIC, and STD_ULOGIC_VECTOR
+- IEEE.NUMERIC_STD.ALL
+  - SIGNED, UNSIGNED, INTEGER, plus several data conversion functions
