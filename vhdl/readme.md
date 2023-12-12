@@ -113,3 +113,99 @@ Enables to build large systems from simpler or predesigned components --> struct
 		-- a and b are equal if individual bits are equal
 		aeqb <= e0 and e1;
 	end struc_arch;
+
+![image](https://github.com/Ninja-Spotted/Portefolio/assets/105322822/8f83ae0e-4828-45a4-aa60-f10a43b82f2b)
+
+### Process
+
+Sequential statements, which are executed in sequence.
+- Since their behavior is different from that of a normal concurrent circuit model, these statements are encapsulated inside a process
+- A process in itself is a concurrent statement
+Synthesizable processes include:
+- Describing routing structures with if and case statements
+- Constructing templates for memory elements
+
+#### Sensivity List
+
+List of signals to which the process responds (i.e., is “sensitive to”)
+
+#### Syntax
+
+	process (sensitivity_list)
+	begin
+		sequential statement;
+		sequential statement;
+		...
+	end process;
+
+When a signal is assigned multiple times inside a process, only the last assignment takes effect.
+
+### Test Bench
+
+A special program that mimic a physical lab bench.
+
+In the test bench, operations are performed sequentially
+
+#### 2-bit Comparator test bench program
+
+- the uut is the unit under test
+- the test vector generator block generates testing input patterns
+- the monitor block examines the output responses
+
+![image](https://github.com/Ninja-Spotted/Portefolio/assets/105322822/55da5306-874b-4bc6-be7c-593e314372e6)
+
+
+		library ieee;
+		use ieee.std_logic_1164.all;
+  
+		entity eq2_testbench is		-- no I/O ports
+		end eq2_testbench;
+  
+		architecture tb_arch of eq2_testbench is
+			signal test_in0, test_in1: std_logic_vector (1 downto 0);
+			signal test_out: std_logic;
+  
+		begin
+			-- instantiate the circuit under test
+			uut: entity work.eq2 (struc_arch)
+			port map (a=>test_in0, b=>test_in1, aeqb=>test_out);
+			  -- test vector generator
+			process
+			begin
+				-- test vector 1
+				test_in0 <= "00";
+				test_in1 <= "00";
+				wait for 200 ns;
+				-- test vector 2
+				test_in0 <= "01";
+				test_in1 <= "00";
+				wait for 200 ns;
+				-- test vector 3
+				test_in0 <= "01";
+				test_in1 <= "11";
+				wait for 200 ns;
+				  -- test vector 4
+				test_in0 <= "10";
+				test_in1 <= "10";
+				wait for 200 ns;
+				-- test vector 5
+				test_in0 <= "10";
+				test_in1 <= "00";
+				wait for 200 ns;
+				-- test vector 6
+				test_in0 <= "11";
+				test_in1 <= "11";
+				wait for 200 ns;
+				  -- test vector 7
+				test_in0 <= "11";
+				test_in1 <= "01";
+				wait for 200 ns;
+				wait;
+			end process;
+		end tb_arch;
+
+Each test pattern comprises three statements:
+- values assigned to test_in0 and test_in1 signals
+- duration of assignment 200 ns
+
+The code has no monitor: input and output waveforms are observed on a simulator's display ("virtual logic analyzer").
