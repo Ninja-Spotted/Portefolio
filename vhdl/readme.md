@@ -209,3 +209,10 @@ Each test pattern comprises three statements:
 - duration of assignment 200 ns
 
 The code has no monitor: input and output waveforms are observed on a simulator's display ("virtual logic analyzer").
+
+
+## Vivaldo Specifics
+
+After a .vld schematic can be seen by going into side menu -> RTL Analysis -> Open Elaborated Design
+Synthesis can be done to our design by going into side menu -> Run Synthesis
+In Implementation -> Run Implementation we can see the overall FPGA Resource Distribution
