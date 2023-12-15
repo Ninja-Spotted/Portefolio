@@ -215,4 +215,5 @@ The code has no monitor: input and output waveforms are observed on a simulator'
 
 After a .vld schematic can be seen by going into side menu -> RTL Analysis -> Open Elaborated Design
 Synthesis can be done to our design by going into side menu -> Run Synthesis
-In Implementation -> Run Implementation we can see the overall FPGA Resource Distribution
+We can see the overall FPGA Resource Distribution by going -> Synthesis -> Open Synthetized Design
+A schematic representation of the HDL code can be seen on Synthesis -> Open Synthetized Design -> Schematic
