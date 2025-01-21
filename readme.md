@@ -28,7 +28,7 @@ Please feel free to click on a section if you are also interested in.
 I am currently interested in low spec game engines like [pico-8](https://www.lexaloffle.com/dl/docs/pico-8_manual.html), [pyxel](https://github.com/kitao/pyxel), and [raylib](https://github.com/raysan5/raylib).
 
 ## programming-languages
-I mainly learned [C](https://www.learn-c.org/) and [Python](https://www.python.org/), and recently started with [Rust](https://www.rust-lang.org/).
+I mainly learned [C](https://www.learn-c.org/) and [Python](https://www.python.org/) during my academic journey, and recently started with [Rust](https://www.rust-lang.org/) and [C++](https://www.learncpp.com) for work and hobbies.
 
 ## programs-pc
 
@@ -41,7 +41,7 @@ I mainly learned [C](https://www.learn-c.org/) and [Python](https://www.python.o
 | WSL | [Here](https://docs.microsoft.com/en-us/windows/wsl/) |
 | OBS Studio | [Here](https://obsproject.com/) |
 | Firefox | [Here](https://www.mozilla.org/en-US/firefox/new/) |
+| GHelper | [Here](https://g-helper.com/) |
 
 ## games-pc
-This section will be one of the longest ones.  
-
+TODO
