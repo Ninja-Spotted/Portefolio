@@ -63,3 +63,4 @@ If only a number is entered, the next input of the buffer will be used to fill t
 
 ![image](https://github.com/user-attachments/assets/4d8d899c-ff7d-4668-9143-8fd576f81d0b)
 
+https://www.youtube.com/watch?v=B_4x7WlQr7M <- good video to watch
