@@ -59,3 +59,7 @@ However, `std::endl` is often inefficient, since it outputs a newline and flushe
 
 If only a number is entered, the next input of the buffer will be used to fill the second variable.
 
+### Function arguments
+
+![image](https://github.com/user-attachments/assets/4d8d899c-ff7d-4668-9143-8fd576f81d0b)
+
