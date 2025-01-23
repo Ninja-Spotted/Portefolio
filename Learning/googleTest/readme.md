@@ -157,10 +157,43 @@ There is a difference between fake objects and mock objects:
 		  EXPECT_TRUE(painter.DrawCircle(0, 0, 10));      // #5
 		}
 
+## Setting Expectations
 
-https://google.github.io/googletest/gmock_for_dummies.html#general-syntax
+The right expectations must be set for the test to be evaluated correctly and not fail as result of unrelated changes. In gMock the `EXPECT_cALL()` is used to set an expectation on a mock method. The cardinality options can be seen [here](https://google.github.io/googletest/reference/mocking.html#EXPECT_CALL.Times):
 
-Ver os 3 A (arrange act assert)
+    using ::testing::Return;
+    ...
+    EXPECT_CALL(turtle_object, GetX(matchers))     // Two arguments: the mock object and the method and its arguments 
+        .Times(5)                                  // Method will be called 5 times (cardinality),
+        .WillOnce(Return(100))                     // it will return 100 one time (the first time),
+        .WillOnce(Return(150))                     // it will return 150 the second time
+        .WillRepeatedly(Return(200));              // and then return 200 the remaining times.
+
+### Another examples:
+
+1. Specifying expected arguments:
+
+    These can work by setting any generic comparison, as seen [here](https://google.github.io/googletest/reference/matchers.html#generic-comparison).
+
+        // Expects the turtle to move forward by 100 units. (Equivalent to Eq(100))
+        EXPECT_CALL(turtle, Forward( 100 ) );
+   
+        // Expects the turtle moves forward by at least 100 units.
+        EXPECT_CALL(turtle, Forward( Ge(100) ) );
+
+
+3. Not interested in the value of certain arguments:
+
+    For this, the `_` can be used in place of an argument, meaning "anything goes" (Wildcard). The `_` is called a matcher and can be used inside `EXPECT_CALL()`.
+        
+        using ::testing::_;
+        ...
+        // Expects that the turtle jumps to somewhere on the x=50 line.
+        EXPECT_CALL(turtle, GoTo( 50, _ ) );
+
+
+
+# TODO: See if there is a reference to the 3 A's (Arrange Act Assert)
 
 ## Interesting stuff
 
