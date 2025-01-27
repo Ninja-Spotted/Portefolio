@@ -9,6 +9,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #logo: "/steam.png"
 aux_links:
   "Portefolio on GitHub":
-    - "github.com/NinjaChomp/Portefolio"
-remote_theme: just-the-docs/just-the-docs
+    - "github.com/Ninja-Spotted/Portefolio"
+
+#remote_theme: just-the-docs/just-the-docs
+remote_theme: mmistakes/minimal-mistakes@4.26.2
 color_scheme: dark
