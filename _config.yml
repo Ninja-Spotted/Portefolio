@@ -10,6 +10,10 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 aux_links:
   "Portefolio on GitHub":
     - "https://github.com/Ninja-Spotted/Portefolio"
+  "Other Example":
+    - "https://youtube.com/"
+  "Linux Game":
+    - "https://overthewire.org/wargames/bandit/bandit0.html"
 
 remote_theme: just-the-docs/just-the-docs
 #remote_theme: mmistakes/minimal-mistakes
