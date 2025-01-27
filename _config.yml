@@ -11,6 +11,6 @@ aux_links:
   "Portefolio on GitHub":
     - "github.com/Ninja-Spotted/Portefolio"
 
-#remote_theme: just-the-docs/just-the-docs
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: just-the-docs/just-the-docs
+#remote_theme: mmistakes/minimal-mistakes
 color_scheme: dark
