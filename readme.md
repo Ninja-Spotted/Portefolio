@@ -4,6 +4,7 @@ permalink: "/about"
 layout: default
 ---
 
+# About
 
 - 👋 Hi, I’m @Ninja-Spotted
 - 👀 I’m interested in Anime, Manga, Pixelart, Videogames, Embedded Systems, and Electronics!
