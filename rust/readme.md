@@ -4,7 +4,7 @@ permalink: "/rust"
 layout: default
 ---
 
-## Rust
+# Rust
 Rust is hard, but it can also be a great experience to anyone that finds the time to try and learn: Check out [Rust](https://www.rust-lang.org/).  
 It was launched in 2012 in collaboration with Mozilla, and its goal is to make possible to build reliable and efficient system software.  
 Rust is used by developers on networking software, for example, web servers, mail servers and web browsers. Furthermore, you can use it for game development, web-assembly programs, applications for embedded devices and command line programs. It is also present in compilers, interpreters, databases, operating systems and cryptography.  
@@ -18,14 +18,14 @@ It’s important to note that Rust is also the [most loved language](https://ins
 \
 The objective of this document is to present an introduction to the Rust language and some of it's applications.
 
-### Important features
+## Important features
 There is a few important concepts around the Rust Language that one should be aware of, for example, the Ownership feature, which makes Rust to be memory safe without needs for a garbage collector. It is Rust most unique feature, and, in contrary to other languages, with garbage collections or explicit need to allocate and free memory, Rust uses a set of rules that the compiler checks, and, if any are violated, the program won’t compile. On the positive side, it won’t slow down your program while running.  
 \
 Traits allow type classes to adopt different behaviors, inspired by the Haskell language. Basically, floats and integers can both implement the ‘Add’ trait and any type that can be printed implement the ‘Display’ or ‘Debug’ traits.  
 \
 There are also Macros, like ‘println!’ that can take form of function calls but operate on distinct terms, it can take various numbers of parameters and can implement traits before compilation. The main downside, is that you need to write more complex code, and you must define macros or have them called before using them, whether functions can be defined and called anywhere.
 
-### Setup and Installation
+## Setup and Installation
 To get started with Rust, the first thing you should do is to go to the [official website](https://www.rust-lang.org/) and head to the “Getting Started” page. Here you can choose to install Rust through the tool called Rustup, which is supported on various systems and arquitectures, but for our convenience it will only show the version recommended for your system. During the installation it will advise to install the Visual C++ prerequisites on Windows from the link provided. Follow the instructions and continue with the installation.
 There is another prompt to see if the user wants to change directory of installation but it’s recommended to use the default settings.
 After this step, Rust is installed on the system. To confirm this, just write in the console "rustc --version" and check if a prompt gets launched.
@@ -36,7 +36,7 @@ After this step, Rust is installed on the system. To confirm this, just write in
 If the output was different, you may need to restart the shell for the changes to occur.
 It is also advisable to install a IDE like [Visual Studio Code](https://code.visualstudio.com/) or [VSCodium](https://vscodium.com/) where you can install extensions for many languages and helps with code completion and highlights, but you can use a text editor like [Notepad++](https://notepad-plus-plus.org/downloads/), or the default on your system. For reference, in this guide we will be using Visual Studio Code, but VSCodium should have the same instructions.
 
-### First steps (Hello, world!)
+## First steps (Hello, world!)
 Now that we are in conditions of starting programming, open up VS Code and start by choosing a folder in system where the files will be placed (File -> Open Folder) and start by opening the built-in terminal and type 'cargo new hello'. This will create a new folder with the necessary files. Using the sidebar file explorer, navigate to hello/src/main.rs and open it. As you can see, the default file is already ready with the “Hello, world" ready to be printed in the terminal. To do this, navigate in the terminal to the hello folder (using 'cd hello') and then do 'cargo run'.  
 If everything works as intended, an “Hello, world!” was printed in the terminal!
 
@@ -49,11 +49,11 @@ If everything works as intended, an “Hello, world!” was printed in the termi
 
 Also, if you pay close attencion to the output of the terminal, you can see that the program was made into an executable file and it can be executed even with a double click (but you won’t see this message unless you execute it on a command line!).
 
-### Example of Rust Exercises
+## Example of Rust Exercises
 1. Numbers of Armstrong
 3. Volume of Solids
 4. ??
 
-### TO DO (Sintaxe)
+## TO DO (Sintaxe)
 
 
