@@ -42,14 +42,14 @@ For the complete list of assertions provided by GoogleTest, see the [Assertions 
 2. Along with valid C++ statements, use assertions to check values
 3. Results are determined by assertions.
 	
-		TEST(TestSuiteName, TestName) {			--> Names should be valid C++ identifiers
-			... test body ...											and not contain underscores (_)
-		}																		--> Same TestSuiteName tests are grouped
-																						(they belong to the same test suite)
+        TEST(TestSuiteName, TestName) {        // Names should be valid C++ identifiers
+                ... test body ...              //    and not contain underscores (_)
+        }                                      // Same TestSuiteName tests are grouped
+                                               //    (they belong to the same test suite)
    
 Example:
 
-	int Factorial(int n);  // Returns the factorial of n
+	int Factorial(int n);                  // Returns the factorial of n
 
 	 // Tests factorial of 0.
 	TEST(FactorialTest, HandlesZeroInput) {
@@ -72,24 +72,24 @@ A test fixture allows for multiple tests that use the same configurations to reu
 	
 	class SampleTest : public ::testing::Test {
 	
-	protected:					<-- protected since the members are accessed via sub-classes
+	protected:				// protected since the members are accessed via sub-classes
 	    void SetUp() override {
-		std::cout << "Test up\n";		<-- I added this but standard output might not be always visible
-	        // Code here will be executed immediately before each TEST_F
+		std::cout << "Test up\n";	// I added this but standard output might not be always visible
+						// Code here will be executed immediately before each TEST_F
 	    }
 	    void TearDown() override {
-     		std::cout << "Test down\n";		<-- I added this but standard output might not be always visible
-	        // Code here will be executed immediately after each TEST_F
+		std::cout << "Test down\n";	// I added this but standard output might not be always visible
+						// Code here will be executed immediately after each TEST_F
 	    }
-	    // Define your test object here, such as:
+						// Define your test object here, such as:
 	    int testVariable = 10;
 	};
 	
 	
-	TEST_F(SampleTest, TestName) {		<-- Must be a TEST_F (_F stands for "fixture")
-	    // Access your test object		    (allows access to objects and subroutines)
-	    EXPECT_EQ(testVariable, 10);	    First argument must be name of fixture class
-	    // Other test code...
+	TEST_F(SampleTest, TestName) {		// Must be a TEST_F (_F stands for "fixture")
+	    					// Access your test object (allows access to objects and subroutines)
+	    EXPECT_EQ(testVariable, 10);	// First argument must be name of fixture class
+	    					// Other test code...
 	}
 
 In this case, TestName is based on the SampleTest test fixture class and uses the SetUp and TearDown methods from it. Sometimes, the constructor/destructor of the test fixture should be used instead of SetUp/TearDown (see more [here](https://google.github.io/googletest/faq.html#CtorVsSetUp)).
@@ -120,10 +120,10 @@ There is a difference between fake objects and mock objects:
 
 
 		#include <gmock/gmock.h>  // Brings in gMock.
-		class MockTurtle : public Turtle {														// #1 & #2
-			public:																											// #3
+		class MockTurtle : public Turtle {						// #1 & #2
+			public:									// #3
 				...
-				MOCK_METHOD(void, PenUp, (), (override));									// #4 & #5
+				MOCK_METHOD(void, PenUp, (), (override));			// #4 & #5
 				MOCK_METHOD(void, PenDown, (), (override));
 				MOCK_METHOD(void, Forward, (int distance), (override));
 				MOCK_METHOD(void, Turn, (int degrees), (override));
@@ -145,29 +145,29 @@ There is a difference between fake objects and mock objects:
 		#include <gmock/gmock.h>
 		#include <gtest/gtest.h>
 		
-		using ::testing::AtLeast;                         // #1
+		using ::testing::AtLeast;			// #1
 		
 		TEST(PainterTest, CanDrawSomething) {
-		  MockTurtle turtle;                              // #2
-		  EXPECT_CALL(turtle, PenDown())                  // #3
+		  MockTurtle turtle;				// #2
+		  EXPECT_CALL(turtle, PenDown())		// #3
 		      .Times(AtLeast(1));
 		
-		  Painter painter(&turtle);                       // #4
+		  Painter painter(&turtle);			// #4
 		
-		  EXPECT_TRUE(painter.DrawCircle(0, 0, 10));      // #5
+		  EXPECT_TRUE(painter.DrawCircle(0, 0, 10));	// #5
 		}
 
 ## Setting Expectations
 
 The right expectations must be set for the test to be evaluated correctly and not fail as result of unrelated changes. In gMock the `EXPECT_cALL()` is used to set an expectation on a mock method. The cardinality options can be seen [here](https://google.github.io/googletest/reference/mocking.html#EXPECT_CALL.Times):
-
-    using ::testing::Return;
-    ...
-    EXPECT_CALL(turtle_object, GetX(matchers))     // Two arguments: the mock object and the method and its arguments 
-        .Times(5)                                  // Method will be called 5 times (cardinality),
-        .WillOnce(Return(100))                     // it will return 100 one time (the first time),
-        .WillOnce(Return(150))                     // it will return 150 the second time
-        .WillRepeatedly(Return(200));              // and then return 200 the remaining times.
+	
+	using ::testing::Return;
+	...
+	EXPECT_CALL(turtle_object, GetX(matchers))	// Two arguments: the mock object and the method and its arguments 
+	.Times(5)				// Method will be called 5 times (cardinality),
+	.WillOnce(Return(100))			// it will return 100 one time (the first time),
+	.WillOnce(Return(150))			// it will return 150 the second time
+	.WillRepeatedly(Return(200));		// and then return 200 the remaining times.
 
 ### Another examples:
 
@@ -175,21 +175,21 @@ The right expectations must be set for the test to be evaluated correctly and no
 
     These can work by setting any generic comparison, as seen [here](https://google.github.io/googletest/reference/matchers.html#generic-comparison).
 
-        // Expects the turtle to move forward by 100 units. (Equivalent to Eq(100))
-        EXPECT_CALL(turtle, Forward( 100 ) );
-   
-        // Expects the turtle moves forward by at least 100 units.
-        EXPECT_CALL(turtle, Forward( Ge(100) ) );
+		// Expects the turtle to move forward by 100 units. (Equivalent to Eq(100))
+		EXPECT_CALL(turtle, Forward( 100 ) );
+		
+		// Expects the turtle moves forward by at least 100 units.
+		EXPECT_CALL(turtle, Forward( Ge(100) ) );
 
 
 3. Not interested in the value of certain arguments:
 
     For this, the `_` can be used in place of an argument, meaning "anything goes" (Wildcard). The `_` is called a matcher and can be used inside `EXPECT_CALL()`.
         
-        using ::testing::_;
-        ...
-        // Expects that the turtle jumps to somewhere on the x=50 line.
-        EXPECT_CALL(turtle, GoTo( 50, _ ) );
+		using ::testing::_;
+		...
+		// Expects that the turtle jumps to somewhere on the x=50 line.
+		EXPECT_CALL(turtle, GoTo( 50, _ ) );
 
 
 
