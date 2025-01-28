@@ -6,12 +6,20 @@ layout: default
 
 # About
 
-- 👋 Hi, I’m @Ninja-Spotted
+- 👋 Hi, I’m @ninja-spotted
 - 👀 I’m interested in Anime, Manga, Pixelart, Videogames, Embedded Systems, and Electronics!
 
-[Markdown](/markdown/readme.md)  
-[Rust](/rust/readme.md)  
+## TODO
+
+- [ ] Add a blog folder (and create a template)
+- [ ] Create the different interest folders/pages
+- [ ] Integrate gifs as buttons
+- [ ] Try to create pages without the use of a theme
+- [ ] Experiment with more addons like a visitor counter
+- [ ] Beautify the written pages (might 
+
 [Trying to add more pages to the site](https://docs.github.com/pt/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-page-to-your-site)
+
 ## Interests
 
 Please feel free to click on a section if you are also interested in.  
