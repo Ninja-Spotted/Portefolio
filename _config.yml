@@ -9,7 +9,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #logo: "/steam.png"
 aux_links:
   "Portefolio on GitHub":
-    - "https://github.com/Ninja-Spotted/Portefolio"
+    - "https://github.com/ninja-spotted/Portefolio"
   "Other Example":
     - "https://youtube.com/"
   "Linux Game":
