@@ -5,7 +5,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "pixelart/readme.md", title: "Pixel Art"}
   - {file: "IED/readme.md", title: "ESP32 as IED"}
   - {file: "computer_architecture/readme.md", title: "Computer Architecture"}
-  - {url: "Portefolio/unthemed.html", title: "Unthemed"}
+  - {url: "/Portefolio/unthemed.html", title: "Unthemed"}
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -17,7 +17,7 @@ aux_links:
   "Portefolio on GitHub":
     - "https://github.com/ninja-spotted/Portefolio"
   "Unthemed":
-    - "Portefolio/unthemed.html"
+    - "/Portefolio/unthemed.html"
   "Linux Game":
     - "https://overthewire.org/wargames/bandit/bandit0.html"
 
