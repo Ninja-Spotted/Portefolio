@@ -5,6 +5,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "pixelart/readme.md", title: "Pixel Art"}
   - {file: "IED/readme.md", title: "ESP32 as IED"}
   - {file: "computer_architecture/readme.md", title: "Computer Architecture"}
+  - {file: "unthemed.html", title: "Unthemed"}
+
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
