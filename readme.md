@@ -14,7 +14,7 @@ layout: default
 - [ ] Add a blog folder (and create a template)
 - [ ] Create the different interest folders/pages
 - [ ] Integrate gifs as buttons
-- [ ] Try to create pages without the use of a theme
+- [X] Try to create pages without the use of a theme
 - [ ] Experiment with more addons like a visitor counter
 - [ ] Beautify the written pages (might 
 
