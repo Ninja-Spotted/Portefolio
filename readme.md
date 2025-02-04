@@ -15,7 +15,7 @@ layout: default
 - [ ] Create the different interest folders/pages
 - [ ] Integrate gifs as buttons
 - [X] Try to create pages without the use of a theme
-- [ ] Experiment with more addons like a visitor counter
+- [X] ~~Visitor counter~~ (only using 3º party stuff 🙁)
 - [ ] Beautify the written pages (might take a while lol, maybe divide task into smaller chunks)
 
 [Trying to add more pages to the site](https://docs.github.com/pt/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-page-to-your-site)
